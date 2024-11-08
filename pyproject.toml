@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "json-remapper"
+version = "0.1.0"
+authors = [
+    { name="Nic Ullman" },
+]
+description = "A flexible JSON schema-based remapping tool"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "jsonschema>=4.0.0",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com"
+"Bug Tracker" = "https://github.com"
